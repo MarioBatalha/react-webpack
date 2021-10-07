@@ -1,9 +1,9 @@
-'use strict';
+import React from 'react';
 
 var Title = React.createClass({
     render: function() { 
-        return React.createElement('h1', null, 'Title');
+        return <h1>Titulo</h1>
     }
 });
 
-module.exports = Title;
+export default Title;
