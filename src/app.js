@@ -1,6 +1,6 @@
 import React from 'react';
 
-var Title = React.createClass({
+var App = React.createClass({
     render: function() { 
         return <h1>Titulo</h1>
     }

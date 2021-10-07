@@ -23,6 +23,12 @@ module.exports = {
     ],
     
     module: {
+        preloaders: [{
+            test: /\.js/,
+            exclude: /node_modules/,
+            include: /src/,
+            loader: 'standard'
+        }],
         loaders: [{
             test: /\.js/,
             exclude: /node_modules/,
